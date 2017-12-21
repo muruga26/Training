@@ -11,7 +11,7 @@ int main(void)
 	{
 		printf("%c",a[i]);
 	}
-	printf("\nVowels: ");
+	printf("\n Except vowels: ");
 	for(i=b-1;i>=0;i--)
 	{
 		if(a[i]!='a'&&a[i]!='e'&&a[i]!='i'&&a[i]!='o'&&a[i]!='u')
