@@ -1,0 +1,22 @@
+#include <stdio.h>
+struct car{
+	char model;
+	char color;
+	int g;
+};
+union cars{
+	char mod;
+	char col;
+	int h;
+	
+};
+int main(void) {
+	
+	struct car s;
+	union cars d;
+	
+	printf("%d",sizeof(s));
+	printf("%d",sizeof(d));
+	
+	return 0;
+}
